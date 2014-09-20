@@ -7,6 +7,8 @@ Identification fields:
 
 Extracted features:
 -------------------
+All the following are means of respective values for subject/activity
+
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y
 5. tBodyAcc-mean()-Z

@@ -1,14 +1,14 @@
 #read test files
-activity_labels <- read.table("./getting_cleaning_data/Data/activity_labels.txt")
-features <- read.table("./getting_cleaning_data/Data/features.txt")
+activity_labels <- read.table("./Data/activity_labels.txt")
+features <- read.table("./Data/features.txt")
 
-subject_test <- read.table("./getting_cleaning_data/Data/test/subject_test.txt")
-X_test <- read.table("./getting_cleaning_data/Data/test/X_test.txt")
-y_test <- read.table("./getting_cleaning_data/Data/test/y_test.txt")
+subject_test <- read.table("./Data/test/subject_test.txt")
+X_test <- read.table("./Data/test/X_test.txt")
+y_test <- read.table("./Data/test/y_test.txt")
 
-subject_train <- read.table("./getting_cleaning_data/Data/train/subject_train.txt")
-X_train <- read.table("./getting_cleaning_data/Data/train/X_train.txt")
-y_train <- read.table("./getting_cleaning_data/Data/train/y_train.txt")
+subject_train <- read.table("./Data/train/subject_train.txt")
+X_train <- read.table("./Data/train/X_train.txt")
+y_train <- read.table("./Data/train/y_train.txt")
 
 #merge data
 subject <- rbind(subject_test, subject_train)
